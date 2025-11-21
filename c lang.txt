@@ -1,0 +1,59 @@
+-->>ramu and somu are 2 friends,both are have some mangoes.Find the total mangoes that te have each other.
+
+case 1:
+	input - 20,30
+	output - 50
+case 2:
+	input - 99,100
+	output - 199
+code
+************
+ void main()
+{ 
+ int a,b;
+ scanf("%d %d",&a,&b);
+ printf("total mangoes = %d",a+b);
+}
+
+-->> a man can use max of 2GB data for a day.if a person use only 1.28GB data. How much of data can user still use.
+void main()
+{ 
+ float a=2,b=1.28;
+ printf("remaining = %f",a-b);
+}
+
+-->> a man want to pave the tiles to his room. the room is in square shape. if the side of a rom is 16m. what is the total area to pave tiles.
+ void main()
+{ 
+ int a;
+ scanf("%d",&a);
+ printf("area = %d",a*a);
+}
+
+-->>write a program to display telugu characters?
+
+#include<stdio.h>
+void main()
+{
+    printf("\u0C05\u0C30\u0C41\u0C23\u0C4D\n");
+}
+
+-->> write a c program to check the given number is positive or negative?
+#include<stdio.h>
+void main()
+{
+   int a;
+    printf("enter a number : ");
+    scanf("%d",&a);
+    if(a>0)
+    {
+        printf("positive number");
+    }
+    else if(a<0)
+     {
+     printf("negative number");
+    }
+}
+
+
+
